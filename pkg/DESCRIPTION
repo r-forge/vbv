@@ -1,0 +1,8 @@
+Package: vbv
+Type: Package
+Title: Time series decomposition with VBV (Verallgemeinertes Berliner Verfahren)
+Version: 0.5
+Author: Detlef Steuer <steuer@hsu-hh.de>, Hartmut Hebbel <hartmut.hebbel@hsu-hh.de>
+Maintainer: Detlef Steuer <steuer@hsu-hh.de>
+Description: vbv implements the VBV as described in the upcoming article "Decomposition of Time Series using the Generalised Berlin Method (VBV)" by Hebbel and Steuer. VBV is a method to decompose a time series using penalized splines. Both methods, static estimation and moving estimation are implemented.
+License: GPL-3
