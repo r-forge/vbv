@@ -1,5 +1,6 @@
 \name{VBV.movingestimation}
 \alias{VBV.movingestimation}
+\title{VBV moving estimation -- estimate locally optimized trend and season figures}
 \usage{
   VBV.movingestimation(t.vec, y.vec, p, q.vec, m,
     grundperiode, lambda1, lambda2)
@@ -31,6 +32,10 @@
   \item{trendschaetzer}{vector of estimated trend of length
   length(y.vec)} \item{saisonschaetzer}{vector of estimated
   season of length length(y.vec)}
+}
+\description{
+  VBV moving estimation -- estimate locally optimized trend
+  and season figures
 }
 \note{
   lambda1 == lambda2 == Inf result in estimations of the

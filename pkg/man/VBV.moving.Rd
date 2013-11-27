@@ -1,5 +1,6 @@
 \name{VBV.moving}
 \alias{VBV.moving}
+\title{VBV moving -- decompose a times series into locally estimated trend and season figures}
 \usage{
   VBV.moving(n, p, q.vec, m, grundperiode, lambda1,
     lambda2)
@@ -30,6 +31,10 @@
   of weights. Trend is estimated as W1 %*% y, if y is the
   data vector} \item{W2}{ nxn matrix of weights. Season is
   estimated as W2 %*% y, if y is the data vector}
+}
+\description{
+  VBV moving -- decompose a times series into locally
+  estimated trend and season figures
 }
 \note{
   lambda1 == lambda2 == Inf result in estimations of the

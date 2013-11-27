@@ -1,5 +1,6 @@
 \name{VBV.decomposition}
 \alias{VBV.decomposition}
+\title{VBV.decomposition - decompose a time series with VBV}
 \usage{
   VBV.decomposition(n, p, q.vec, grundperiode, lambda1,
     lambda2)
@@ -31,6 +32,9 @@
   time} \item{A, G1, G2}{Some matrices that allow to
   calclate SSE etc. Exposed only reuse their calculation.
   See the referenced paper for details.}
+}
+\description{
+  VBV.decomposition - decompose a time series with VBV
 }
 \note{
   lambda1 == lambda2 == Inf result in estimations of the

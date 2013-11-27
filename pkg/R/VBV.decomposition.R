@@ -1,4 +1,5 @@
-#'@param n number of observation points. Internally this will be transformed to
+#' @title VBV.decomposition - decompose a time series with VBV
+#' @param n number of observation points. Internally this will be transformed to
 #' seq((-(n-1)/2, (n-1)/2, 1)
 #'@param p maximum exponent in polynomial for trend
 #'@param q.vec vector containing frequencies to use for seasonal component, given as integers, i.e. c(1, 3, 5) for 1/2*pi, 3/2*pi, 5/2*pi (times length of base period)

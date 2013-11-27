@@ -1,3 +1,4 @@
+#'@title VBV moving -- decompose a times series into locally estimated trend and season figures
 #'@param n number of observation points (odd!). Internally this will be transformed to seq((-(n-1)/2, (n-1)/2, 1)
 #'@param p maximum exponent in polynomial for trend
 #'@param q.vec vector containing frequencies to use for seasonal component, given as integers, i.e. c(1, 3, 5) for 1/2*pi, 3/2*pi, 5/2*pi (times length of base period)
@@ -5,8 +6,8 @@
 #'@param grundperiode base period in number of observations, i.e. 12 for monthly data with yearly oscillations
 #'@param lambda1 penalty weight for smoothness of trend
 #'@param lambda2 penalty weight for smoothness of seasonal component
-#' @note lambda1 == lambda2 == Inf result in estimations of the original Berliner Verfahren
-#' @return list with the following components:
+#'@note lambda1 == lambda2 == Inf result in estimations of the original Berliner Verfahren
+#'@return list with the following components:
 #' \item{W1}{ nxn matrix of weights. Trend is estimated as W1 %*% y, if y is the data vector}
 #' \item{W2}{ nxn matrix of weights. Season is estimated as W2 %*% y, if y is the data vector}
 

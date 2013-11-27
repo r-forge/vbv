@@ -1,5 +1,6 @@
 \name{VBV.estimation}
 \alias{VBV.estimation}
+\title{VBV estimation -- estimate trend and seasonal components statically}
 \usage{
   VBV.estimation(t.vec, y.vec, p, q.vec, grundperiode,
     lambda1, lambda2)
@@ -29,6 +30,10 @@
   \item{trendschaetzer}{vector of estimated trend of length
   length(y.vec)} \item{saisonschaetzer}{vector of estimated
   season of length length(y.vec)}
+}
+\description{
+  VBV estimation -- estimate trend and seasonal components
+  statically
 }
 \note{
   lambda1 == lambda2 == Inf result in estimations of the
