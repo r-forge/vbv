@@ -1,4 +1,4 @@
-#'@title VBV estimation -- estimate trend and seasonal components statically
+#' VBV estimation -- estimate trend and seasonal components statically
 #'@param t.vec vector of points in time as integers
 #'@param y.vec vector of data
 #'@param p maximum exponent in polynomial for trend

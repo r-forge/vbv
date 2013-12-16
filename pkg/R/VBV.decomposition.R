@@ -1,4 +1,7 @@
-#' @title VBV.decomposition - decompose a time series with VBV
+#' VBV.decomposition - decompose a time series with VBV
+#'
+#' VBV.decomposition - decompose a time series with VBV
+#'
 #' @param n number of observation points. Internally this will be transformed to
 #' seq((-(n-1)/2, (n-1)/2, 1)
 #'@param p maximum exponent in polynomial for trend
@@ -6,7 +9,7 @@
 #'@param grundperiode base period in number of observations, i.e. 12 for monthly data with yearly oscillations
 #'@param lambda1 penalty weight for smoothness of trend
 #'@param lambda2 penalty weight for smoothness of seasonal component
-#' @note lambda1 == lambda2 == Inf result in estimations of the original Berliner Verfahren
+#' lambda1 == lambda2 == Inf result in estimations of the original Berliner Verfahren
 #' @return list with the following components:
 #' \item{trend}{A function which returns the appropriate weights if applied to a point in time}
 #' \item{saison}{A function which returns the appropriate weights if applied to a point in time}

@@ -1,4 +1,4 @@
-#'@title VBV moving estimation -- estimate locally optimized trend and season figures
+#' VBV moving estimation -- estimate locally optimized trend and season figures
 #'@param t.vec vector of points in time as integers
 #'@param y.vec vector of data
 #'@param p maximum exponent in polynomial for trend

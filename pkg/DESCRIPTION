@@ -16,8 +16,3 @@ Description: vbv implements the VBV as described in the upcoming article
     penalized splines. Both methods, static estimation and moving
     estimation are implemented.
 License: GPL-3
-Collate:
-    'VBV.decomposition.R'
-    'VBV.estimation.R'
-    'VBV.movingestimation.R'
-    'VBV.moving.R'

@@ -2,12 +2,11 @@
 \alias{VBV.moving}
 \title{VBV moving -- decompose a times series into locally estimated trend and season figures}
 \usage{
-  VBV.moving(n, p, q.vec, m, grundperiode, lambda1,
-    lambda2)
+VBV.moving(n, p, q.vec, m, grundperiode, lambda1, lambda2)
 }
 \arguments{
   \item{n}{number of observation points (odd!). Internally
-  this will be transformed to seq((-(n-1)/2, (n-1)/2, 1)}
+  this will be transformed to seq( -(n-1)/2, (n-1)/2, 1)}
 
   \item{p}{maximum exponent in polynomial for trend}
 
@@ -27,17 +26,17 @@
   component}
 }
 \value{
-  list with the following components: \item{W1}{ nxn matrix
-  of weights. Trend is estimated as W1 %*% y, if y is the
-  data vector} \item{W2}{ nxn matrix of weights. Season is
-  estimated as W2 %*% y, if y is the data vector}
+list with the following components: \item{W1}{ nxn matrix
+of weights. Trend is estimated as W1 \%*\% y, if y is the
+data vector} \item{W2}{ nxn matrix of weights. Season is
+estimated as W2 \%*\% y, if y is the data vector}
 }
 \description{
-  VBV moving -- decompose a times series into locally
-  estimated trend and season figures
+VBV moving -- decompose a times series into locally
+estimated trend and season figures
 }
 \note{
-  lambda1 == lambda2 == Inf result in estimations of the
-  original Berliner Verfahren
+lambda1 == lambda2 == Inf result in estimations of the
+original Berliner Verfahren
 }
 
