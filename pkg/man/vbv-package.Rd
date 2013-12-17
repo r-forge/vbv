@@ -2,41 +2,48 @@
 \alias{vbv-package}
 \alias{vbv}
 \docType{package}
-\title{
-What the package does (short line)
-~~ package title ~~
+\title{VBV -- Time series decomposition with VBV (Verallgemeinertes Berliner Verfahren)}
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+vbv implements the VBV as described in the upcoming article
+    "Decomposition of Time Series using the Generalised Berlin Method
+    (VBV)" by Hebbel and Steuer, to be published in Jan Beran,
+    Yuanhua Feng, Hartmut Hebbel (Eds.): Empirical Economic and
+    Financial Research - Theory, Methods and Practice, Festschrift in
+    Honour of Prof. Siegfried Heiler. Series: Advanced Studies in
+    Theoretical and Applied Econometrics. Springer 2014, p. 9-40.
+    VBV is a method to decompose a time series using
+    penalized splines. Both methods, static estimation and moving
+    estimation are implemented.
 }
 \details{
 \tabular{ll}{
 Package: \tab vbv\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-11-26\cr
-License: \tab What license is it under?\cr
+Version: \tab 0.5 \cr
+Date: \tab 2013-12-16\cr
+License: GPL-3 or later
 }
-~~ An overview of how to use the package, including the most important ~~
-~~ functions ~~
+
 }
 \author{
-Who wrote it
+Hartmut Hebbel ( hartmut.hebbel@hsu-hh.de ) \cr
+Detlef Steuer  (steuer@hsu-hh.de)
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: steuer@hsu-hh.de
+
 }
 \references{
-~~ Literature or other references for background information ~~
+Yuanhua Feng, Hartmut Hebbel (Eds.): Empirical Economic and
+    Financial Research - Theory, Methods and Practice, Festschrift in
+    Honour of Prof. Siegfried Heiler. Series: Advanced Studies in
+    Theoretical and Applied Econometrics. Springer 2014, p. 9-40.
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
-~~ the R documentation directory ~~
 \keyword{ package }
+\keyword{ time series analysis }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+
 }
 \examples{
-~~ simple examples of the most important functions ~~
+
 }
